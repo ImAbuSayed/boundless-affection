@@ -1,1 +1,56 @@
-[Clean lyric will be pushed here]
+import re
+with open('lyric-raw.txt', 'r') as f:
+text = f.read()
+# Check for forbidden words
+forbidden =
+for word in forbidden:
+if re.search(r'\b' + re.escape(word) + r'\b', text, re.IGNORECASE):
+print.. f"FORBIDDEN WORD FOUND: {word}"..
+# Check for gendered tags
+if '' in text or '' in text:
+print.. "FORBIDDEN TAG FOUND"..
+print.. "Check completed."..
+Shadows falling soft across the wooden floor
+I never knew a quiet I've been craving more
+Your fingertips are tracing circles on my skin
+I'm opening the door to let the magic in
+The midnight moon is pouring through the windowpane
+A sudden kind of fever rushing to my brain
+I pull you close enough to feel your steady breath
+A slow and heavy rhythm beating in my chest
+There's a fire in the room just fading down to coals
+But the heat between us now is taking full control
+I see the way you look at me with hungry eyes
+The tension in the quiet starting to arise
+Oh I am falling into boundless affection
+Lost inside your warmth and your lovely direction
+I wanna hold you here until the morning light
+And give you everything I am this heavy summer night
+(Hold you close) wrapped up in the glow
+(Never leave) taking it so slow
+The shadows in the corner melting with the ice
+But nothing's intoxicating like your paradise
+You lean a little deeper right into my frame
+And suddenly the silence echoes with your name
+There's a fire in the room just fading down to coals
+But the heat between us now is taking full control
+I see the way you look at me with hungry eyes
+The tension in the quiet starting to arise
+Oh I am falling into boundless affection
+Lost inside your warmth and your lovely direction
+I wanna hold you here until the morning light
+And give you everything I am this heavy summer night
+(Hold you close) wrapped up in the glow
+(Never leave) taking it so slow
+Falling into boundless affection losing all control
+The silent pull of gravity is taking my soul
+Every single whisper feels so heavy and sweet
+A kind of rhythm making my heart skip a beat
+Even if the morning tries to steal you away
+Sayed is gonna hold you, I am begging you to stay
+I just want to stay right here with you
+Let the whole world wait outside
+Oh I am falling into boundless affection
+Lost inside your warmth and your lovely direction
+I wanna hold you here until the morning light
+And give you everything I am this heavy summer night
