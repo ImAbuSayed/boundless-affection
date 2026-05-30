@@ -15,7 +15,7 @@
 | **Written On** | May 28, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/boundless-affection/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Get License For Boundless Affection](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/boundless-affection/) |
+| **Get License** | [Secure Licensing Rights for Boundless Affection](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/boundless-affection/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -32,7 +32,10 @@
 
 ## 📝 Lyric Preview
 
-> [Excerpt will appear here after the final lyric is saved.]
+> import re
+> with open('lyric-raw.txt', 'r') as f:
+> text = f.read()
+> # Check for forbidden words
 > ...
 
 [**View Full Lyrics**](./lyrics.txt) | [**View Metadata**](./manifest.json) | [**View Proofs**](./hashes.txt)
