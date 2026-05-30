@@ -1,0 +1,17 @@
+import re
+
+with open('lyric-raw.txt', 'r') as f:
+    text = f.read()
+
+# Check for forbidden words
+forbidden = ['808', 'trap', 'reggaeton', 'garage', 'BPM', 'synth', 'hi-hat', 'bassline', 'autotune', 'reverb', 'dhol loop', 'mix/master', 'Country Rock', 'Modern Country-Pop', 'Acoustic Romantic Americana', 'Late-Night Country Soul', 'luxury', 'speed', 'urban', 'club', 'lavish', 'exclusive', 'VIP', 'nightclub', 'boujee', 'opulent', 'street', 'designer', 'penthouse', 'champagne', 'velvet rope', 'gold chains', 'diamonds', 'sleek cars', 'dhol', 'tumbi', 'boy', 'girl', 'she', 'he', 'Male', 'Female']
+
+for word in forbidden:
+    if re.search(r'\b' + re.escape(word) + r'\b', text, re.IGNORECASE):
+        print(f"FORBIDDEN WORD FOUND: {word}")
+
+# Check for gendered tags
+if '[Male]' in text or '[Female]' in text:
+    print("FORBIDDEN TAG FOUND")
+
+print("Check completed.")

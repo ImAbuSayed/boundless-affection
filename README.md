@@ -15,7 +15,7 @@
 | **Written On** | May 28, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/boundless-affection/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Secure Licensing Rights for Boundless Affection](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/boundless-affection/) |
+| **Get License** | [License this song: Boundless Affection](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/boundless-affection/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -110,7 +110,7 @@ This song is an original creative work by Abu Sayed. All lyrics, melody, and com
 |:-------------------|:------------|
 | **Author** | Abu Sayed |
 | **Version** | `v1` |
-| **SHA-256 Hash** | `N/A` |
+| **SHA-256 Hash** | `59576653a5cbdb1d77c7a4ddec930cdf261e66afc032f5329ada5106208ea750` |
 | **Timestamp** | May 30, 2026 |
 
 See [LICENSE.md](./LICENSE.md) for full terms and conditions.
